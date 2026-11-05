@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="AudioFile" id="{522fabf8-e5b9-46f0-bb30-34ee9ca7a534}">
+    <property name="assetPath">
+      <value>sfx/spells/hero_quake_spell_dash.ogg</value>
+    </property>
+    <property name="frequencyInKHz">
+      <value>44.099998474121094</value>
+    </property>
+    <property name="channelCount">
+      <value>1</value>
+    </property>
+    <property name="length">
+      <value>0.507687074829932</value>
+    </property>
+    <relationship name="masterAssetFolder">
+      <destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination>
+    </relationship>
+  </object>
+</objects>

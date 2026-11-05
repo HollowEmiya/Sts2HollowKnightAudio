@@ -1,0 +1,571 @@
+[
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_fireball",
+    "category": "spells",
+    "name": "hero_fireball",
+    "asset": "Assets/sfx/spells/hero_fireball.ogg",
+    "source": "hero_fireball.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_quake_spell_prepare",
+    "category": "spells",
+    "name": "hero_quake_spell_prepare",
+    "asset": "Assets/sfx/spells/hero_quake_spell_prepare.ogg",
+    "source": "hero_quake_spell_prepare.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_quake_spell_dash",
+    "category": "spells",
+    "name": "hero_quake_spell_dash",
+    "asset": "Assets/sfx/spells/hero_quake_spell_dash.ogg",
+    "source": "hero_quake_spell_dash.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_quake_spell_impact",
+    "category": "spells",
+    "name": "hero_quake_spell_impact",
+    "asset": "Assets/sfx/spells/hero_quake_spell_impact.ogg",
+    "source": "hero_quake_spell_impact.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_void_quake_impact",
+    "category": "spells",
+    "name": "hero_void_quake_impact",
+    "asset": "Assets/sfx/spells/hero_void_quake_impact.ogg",
+    "source": "hero_void_quake_impact.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_scream_spell",
+    "category": "spells",
+    "name": "hero_scream_spell",
+    "asset": "Assets/sfx/spells/hero_scream_spell.ogg",
+    "source": "hero_scream_spell.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_void_scream_spell",
+    "category": "spells",
+    "name": "hero_void_scream_spell",
+    "asset": "Assets/sfx/spells/hero_void_scream_spell.ogg",
+    "source": "hero_void_scream_spell.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_fluke_cast",
+    "category": "spells",
+    "name": "hero_fluke_cast",
+    "asset": "Assets/sfx/spells/hero_fluke_cast.ogg",
+    "source": "hero_fluke_cast.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_fluke_bounce_1",
+    "category": "spells",
+    "name": "hero_fluke_bounce_1",
+    "asset": "Assets/sfx/spells/hero_fluke_bounce_1.ogg",
+    "source": "hero_fluke_bounce_1.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_fluke_bounce_2",
+    "category": "spells",
+    "name": "hero_fluke_bounce_2",
+    "asset": "Assets/sfx/spells/hero_fluke_bounce_2.ogg",
+    "source": "hero_fluke_bounce_2.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_fluke_bounce_3",
+    "category": "spells",
+    "name": "hero_fluke_bounce_3",
+    "asset": "Assets/sfx/spells/hero_fluke_bounce_3.ogg",
+    "source": "hero_fluke_bounce_3.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/spells/hero_tentacle_sword",
+    "category": "spells",
+    "name": "hero_tentacle_sword",
+    "asset": "Assets/sfx/spells/hero_tentacle_sword.ogg",
+    "source": "hero_tentacle_sword.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_initiate",
+    "category": "nail_arts",
+    "name": "hero_nail_art_charge_initiate",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_charge_initiate.ogg",
+    "source": "hero_nail_art_charge_initiate.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_complete",
+    "category": "nail_arts",
+    "name": "hero_nail_art_charge_complete",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_charge_complete.ogg",
+    "source": "hero_nail_art_charge_complete.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_loop",
+    "category": "nail_arts",
+    "name": "hero_nail_art_charge_loop",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_charge_loop.ogg",
+    "source": "hero_nail_art_charge_loop.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_great_slash",
+    "category": "nail_arts",
+    "name": "hero_nail_art_great_slash",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_great_slash.ogg",
+    "source": "hero_nail_art_great_slash.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_cyclone_slash_short",
+    "category": "nail_arts",
+    "name": "hero_nail_art_cyclone_slash_short",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_cyclone_slash_short.ogg",
+    "source": "hero_nail_art_cyclone_slash_short.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/nail_arts/hero_nail_art_cyclone_slash_long",
+    "category": "nail_arts",
+    "name": "hero_nail_art_cyclone_slash_long",
+    "asset": "Assets/sfx/nail_arts/hero_nail_art_cyclone_slash_long.ogg",
+    "source": "hero_nail_art_cyclone_slash_long.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/focus_health_charging",
+    "category": "charge",
+    "name": "focus_health_charging",
+    "asset": "Assets/sfx/charge/focus_health_charging.ogg",
+    "source": "focus_health_charging.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/focus_ready",
+    "category": "charge",
+    "name": "focus_ready",
+    "asset": "Assets/sfx/charge/focus_ready.ogg",
+    "source": "focus_ready.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/focus_health_heal",
+    "category": "charge",
+    "name": "focus_health_heal",
+    "asset": "Assets/sfx/charge/focus_health_heal.ogg",
+    "source": "focus_health_heal.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_dream_nail_short_charge",
+    "category": "charge",
+    "name": "hero_dream_nail_short_charge",
+    "asset": "Assets/sfx/charge/hero_dream_nail_short_charge.ogg",
+    "source": "hero_dream_nail_short_charge.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_dream_nail_slash",
+    "category": "charge",
+    "name": "hero_dream_nail_slash",
+    "asset": "Assets/sfx/charge/hero_dream_nail_slash.ogg",
+    "source": "hero_dream_nail_slash.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_dream_nail_slash_only",
+    "category": "charge",
+    "name": "hero_dream_nail_slash_only",
+    "asset": "Assets/sfx/charge/hero_dream_nail_slash_only.ogg",
+    "source": "hero_dream_nail_slash_only.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_charge",
+    "category": "charge",
+    "name": "hero_super_dash_charge",
+    "asset": "Assets/sfx/charge/hero_super_dash_charge.ogg",
+    "source": "hero_super_dash_charge.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_ready",
+    "category": "charge",
+    "name": "hero_super_dash_ready",
+    "asset": "Assets/sfx/charge/hero_super_dash_ready.ogg",
+    "source": "hero_super_dash_ready.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_burst",
+    "category": "charge",
+    "name": "hero_super_dash_burst",
+    "asset": "Assets/sfx/charge/hero_super_dash_burst.ogg",
+    "source": "hero_super_dash_burst.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_loop",
+    "category": "charge",
+    "name": "hero_super_dash_loop",
+    "asset": "Assets/sfx/charge/hero_super_dash_loop.ogg",
+    "source": "hero_super_dash_loop.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_air_brake",
+    "category": "charge",
+    "name": "hero_super_dash_air_brake",
+    "asset": "Assets/sfx/charge/hero_super_dash_air_brake.ogg",
+    "source": "hero_super_dash_air_brake.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/charge/hero_super_dash_impact_wall",
+    "category": "charge",
+    "name": "hero_super_dash_impact_wall",
+    "asset": "Assets/sfx/charge/hero_super_dash_impact_wall.ogg",
+    "source": "hero_super_dash_impact_wall.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_dash",
+    "category": "hero",
+    "name": "hero_dash",
+    "asset": "Assets/sfx/hero/hero_dash.ogg",
+    "source": "hero_dash.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_shade_dash_1",
+    "category": "hero",
+    "name": "hero_shade_dash_1",
+    "asset": "Assets/sfx/hero/hero_shade_dash_1.ogg",
+    "source": "hero_shade_dash_1.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_shade_dash_2",
+    "category": "hero",
+    "name": "hero_shade_dash_2",
+    "asset": "Assets/sfx/hero/hero_shade_dash_2.ogg",
+    "source": "hero_shade_dash_2.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_parry",
+    "category": "hero",
+    "name": "hero_parry",
+    "asset": "Assets/sfx/hero/hero_parry.ogg",
+    "source": "hero_parry.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_unsheath",
+    "category": "hero",
+    "name": "hero_unsheath",
+    "asset": "Assets/sfx/hero/hero_unsheath.ogg",
+    "source": "hero_unsheath.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_damage",
+    "category": "hero",
+    "name": "hero_damage",
+    "asset": "Assets/sfx/hero/hero_damage.ogg",
+    "source": "hero_damage.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_death_v2",
+    "category": "hero",
+    "name": "hero_death_v2",
+    "asset": "Assets/sfx/hero/hero_death_v2.ogg",
+    "source": "hero_death_v2.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_wings",
+    "category": "hero",
+    "name": "hero_wings",
+    "asset": "Assets/sfx/hero/hero_wings.ogg",
+    "source": "hero_wings.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_thorn_counter",
+    "category": "hero",
+    "name": "hero_thorn_counter",
+    "asset": "Assets/sfx/hero/hero_thorn_counter.ogg",
+    "source": "hero_thorn_counter.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/hero/hero_fury_charm_burst",
+    "category": "hero",
+    "name": "hero_fury_charm_burst",
+    "asset": "Assets/sfx/hero/hero_fury_charm_burst.ogg",
+    "source": "hero_fury_charm_burst.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/title",
+    "category": "music",
+    "name": "title",
+    "asset": "Assets/music/music/Title.ogg",
+    "source": "Title.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/dirtmouth",
+    "category": "music",
+    "name": "dirtmouth",
+    "asset": "Assets/music/music/Dirtmouth 1.ogg",
+    "source": "Dirtmouth 1.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/greenpath",
+    "category": "music",
+    "name": "greenpath",
+    "asset": "Assets/music/music/S5 Green Path Main.ogg",
+    "source": "S5 Green Path Main.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/crossroads",
+    "category": "music",
+    "name": "crossroads",
+    "asset": "Assets/music/music/S19 Crossroads Main.ogg",
+    "source": "S19 Crossroads Main.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/fungal_wastes",
+    "category": "music",
+    "name": "fungal_wastes",
+    "asset": "Assets/music/music/S25 Fungal Wastes MAIN.ogg",
+    "source": "S25 Fungal Wastes MAIN.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/white_palace",
+    "category": "music",
+    "name": "white_palace",
+    "asset": "Assets/music/music/S30 White Palace.ogg",
+    "source": "S30 White Palace.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/hornet",
+    "category": "music",
+    "name": "hornet",
+    "asset": "Assets/music/music/S45 HORNET-110.ogg",
+    "source": "S45 HORNET-110.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/mantis_lords",
+    "category": "music",
+    "name": "mantis_lords",
+    "asset": "Assets/music/music/S47-85 Mantis Lords.ogg",
+    "source": "S47-85 Mantis Lords.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/sisters_of_battle",
+    "category": "music",
+    "name": "sisters_of_battle",
+    "asset": "Assets/music/music/GG7 Mantis Lords-51.ogg",
+    "source": "GG7 Mantis Lords-51.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/grimm",
+    "category": "music",
+    "name": "grimm",
+    "asset": "Assets/music/music/S82-115 Grimm.ogg",
+    "source": "S82-115 Grimm.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/nightmare_king_grimm",
+    "category": "music",
+    "name": "nightmare_king_grimm",
+    "asset": "Assets/music/music/S87-168 Nightmare Grimm.ogg",
+    "source": "S87-168 Nightmare Grimm.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/hollow_knight",
+    "category": "music",
+    "name": "hollow_knight",
+    "asset": "Assets/music/music/S61-216 Hollow Knight.ogg",
+    "source": "S61-216 Hollow Knight.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/radiance",
+    "category": "music",
+    "name": "radiance",
+    "asset": "Assets/music/music/S72-140 FINAL FINAL BOSS.ogg",
+    "source": "S72-140 FINAL FINAL BOSS.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/pure_vessel",
+    "category": "music",
+    "name": "pure_vessel",
+    "asset": "Assets/music/music/GG10-53 Vessel.ogg",
+    "source": "GG10-53 Vessel.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/dream_battle",
+    "category": "music",
+    "name": "dream_battle",
+    "asset": "Assets/music/music/S53-30 Dream Battle.ogg",
+    "source": "S53-30 Dream Battle.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/shade",
+    "category": "music",
+    "name": "shade",
+    "asset": "Assets/music/music/Hollow Shade Music.ogg",
+    "source": "Hollow Shade Music.ogg",
+    "loop": true,
+    "bank": "HK_Emiya_Music"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dream_enter",
+    "category": "dream",
+    "name": "dream_enter",
+    "asset": "Assets/sfx/dream/dream_enter.ogg",
+    "source": "dream_enter.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dream_enter_pt_2",
+    "category": "dream",
+    "name": "dream_enter_pt_2",
+    "asset": "Assets/sfx/dream/dream_enter_pt_2.ogg",
+    "source": "dream_enter_pt_2.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dream_orb_pickup",
+    "category": "dream",
+    "name": "dream_orb_pickup",
+    "asset": "Assets/sfx/dream/dream_orb_pickup.ogg",
+    "source": "dream_orb_pickup.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dream_ghost_appear",
+    "category": "dream",
+    "name": "dream_ghost_appear",
+    "asset": "Assets/sfx/dream/dream_ghost_appear.ogg",
+    "source": "dream_ghost_appear.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dream_damage",
+    "category": "dream",
+    "name": "dream_damage",
+    "asset": "Assets/sfx/dream/dream_damage.ogg",
+    "source": "dream_damage.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/dream/dreamshield_attack",
+    "category": "dream",
+    "name": "dreamshield_attack",
+    "asset": "Assets/sfx/dream/dreamshield_attack.ogg",
+    "source": "dreamshield_attack.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/music/hollow_knight/music/void_heart_birthplace",
+    "category": "music",
+    "name": "void_heart_birthplace",
+    "asset": "Assets/music/music/VoidHeart_Birthplace_Full.wav",
+    "source": "S59-55 Final Stage 2.ogg + S59-55 Final Stage 3.ogg (timed arrangement)",
+    "loop": true,
+    "bank": "HK_Emiya_VoidHeart",
+    "loop_start_seconds": 72,
+    "loop_end_seconds": 108
+  }
+]

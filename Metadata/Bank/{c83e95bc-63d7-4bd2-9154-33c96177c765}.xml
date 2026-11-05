@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="Bank" id="{c83e95bc-63d7-4bd2-9154-33c96177c765}">
+    <property name="name">
+      <value>HK_Emiya_Music</value>
+    </property>
+    <relationship name="folder">
+      <destination>{b4f8d078-fddc-4658-8a30-a499577f86e5}</destination>
+    </relationship>
+  </object>
+</objects>

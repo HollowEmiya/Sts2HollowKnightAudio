@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="AudioFile" id="{9be8c32c-1acd-4004-b8b2-7e4e640a1917}">
+    <property name="assetPath">
+      <value>music/music/Dirtmouth 1.ogg</value>
+    </property>
+    <property name="isStreaming">
+      <value>true</value>
+    </property>
+    <property name="frequencyInKHz">
+      <value>44.099998474121094</value>
+    </property>
+    <property name="channelCount">
+      <value>2</value>
+    </property>
+    <property name="length">
+      <value>103.74510204081632</value>
+    </property>
+    <relationship name="masterAssetFolder">
+      <destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination>
+    </relationship>
+  </object>
+</objects>

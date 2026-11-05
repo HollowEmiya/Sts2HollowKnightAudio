@@ -1,0 +1,17 @@
+# FMOD local cache, editor preferences, and unsaved recovery data
+.cache/
+.user/
+.unsaved/
+
+# Rebuilt intermediate banks; distributable banks are retained in Package/
+Build/
+
+# Local decoding intermediates
+Stem*.f32
+DecodeInfo.json
+
+# OS and Python caches
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc

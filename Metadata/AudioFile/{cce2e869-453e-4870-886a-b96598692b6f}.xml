@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00"><object class="AudioFile" id="{cce2e869-453e-4870-886a-b96598692b6f}"><property name="assetPath"><value>sfx/dream/dreamshield_attack.ogg</value></property><property name="frequencyInKHz"><value>44.099998474121094</value></property><property name="channelCount"><value>2</value></property><property name="length"><value>0.4012698412698413</value></property><relationship name="masterAssetFolder"><destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination></relationship></object></objects>

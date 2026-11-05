@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="EventFolder" id="{50af5544-f31d-44b9-9d3a-49a767aaeec0}">
+    <property name="name">
+      <value>hollow_knight</value>
+    </property>
+    <relationship name="folder">
+      <destination>{1beced63-ebbf-448f-8ce8-d1d56c2eb252}</destination>
+    </relationship>
+  </object>
+</objects>

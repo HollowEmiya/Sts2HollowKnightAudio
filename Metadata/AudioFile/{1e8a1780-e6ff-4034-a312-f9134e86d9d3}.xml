@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="AudioFile" id="{1e8a1780-e6ff-4034-a312-f9134e86d9d3}">
+    <property name="assetPath">
+      <value>sfx/hero/hero_dash.ogg</value>
+    </property>
+    <property name="frequencyInKHz">
+      <value>44.099998474121094</value>
+    </property>
+    <property name="channelCount">
+      <value>1</value>
+    </property>
+    <property name="length">
+      <value>0.26848072562358277</value>
+    </property>
+    <relationship name="masterAssetFolder">
+      <destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination>
+    </relationship>
+  </object>
+</objects>

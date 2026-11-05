@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="AudioFile" id="{6ff0eaf7-8cc6-4010-af29-11e96cdb6a25}">
+    <property name="assetPath">
+      <value>music/music/GG7 Mantis Lords-51.ogg</value>
+    </property>
+    <property name="isStreaming">
+      <value>true</value>
+    </property>
+    <property name="frequencyInKHz">
+      <value>44.099998474121094</value>
+    </property>
+    <property name="channelCount">
+      <value>2</value>
+    </property>
+    <property name="length">
+      <value>88.13791383219954</value>
+    </property>
+    <relationship name="masterAssetFolder">
+      <destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination>
+    </relationship>
+  </object>
+</objects>

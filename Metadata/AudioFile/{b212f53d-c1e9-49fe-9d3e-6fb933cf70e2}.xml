@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+  <object class="AudioFile" id="{b212f53d-c1e9-49fe-9d3e-6fb933cf70e2}">
+    <property name="assetPath">
+      <value>music/music/S82-115 Grimm.ogg</value>
+    </property>
+    <property name="isStreaming">
+      <value>true</value>
+    </property>
+    <property name="frequencyInKHz">
+      <value>44.099998474121094</value>
+    </property>
+    <property name="channelCount">
+      <value>2</value>
+    </property>
+    <property name="length">
+      <value>65.14287981859411</value>
+    </property>
+    <relationship name="masterAssetFolder">
+      <destination>{aa864338-a582-4286-9df3-132b1c18f066}</destination>
+    </relationship>
+  </object>
+</objects>

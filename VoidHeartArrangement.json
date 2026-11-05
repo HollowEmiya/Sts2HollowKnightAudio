@@ -1,0 +1,39 @@
+{
+  "title": "Void Heart - Birthplace (timed two-stem arrangement)",
+  "duration_seconds": 108.0,
+  "sample_rate": 44100,
+  "channels": 2,
+  "sources": [
+    "S59-55 Final Stage 2.ogg",
+    "S59-55 Final Stage 3.ogg"
+  ],
+  "source_sha256": {
+    "S59-55 Final Stage 2.ogg": "b4eb7625fe75807001c9d181f03f858201b4b000ef76e1f01b249ac818b3b264",
+    "S59-55 Final Stage 3.ogg": "07ae339ffb293817ef6799e68c79829bdfe4c41e4dd0fb86ee90d87d128ef8a0"
+  },
+  "arrangement": [
+    {
+      "start": 0,
+      "end": 36,
+      "description": "Sub stem; initial 15-second fade-in"
+    },
+    {
+      "start": 36,
+      "end": 72,
+      "description": "Sub + Action strings; 10-second strings fade-in"
+    },
+    {
+      "start": 72,
+      "end": 108,
+      "description": "Both complete stems; this section loops"
+    }
+  ],
+  "loop_start_seconds": 72,
+  "loop_end_seconds": 108,
+  "static_gain_db": 0.0,
+  "loop_edge_bridge_ms": 5,
+  "peak_dbfs": -10.743150780536524,
+  "final_loop_boundary_step": 0.0,
+  "output_sha256": "22ea01dc9129cdd74fa78f0d737db821c24f9811929a6acdd7ea4d0c36bf92b4",
+  "note": "Automatic timing is an adaptation; the original Dream_Abyss switches by player position."
+}

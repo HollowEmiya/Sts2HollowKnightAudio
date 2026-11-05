@@ -1,0 +1,79 @@
+// Integration example: copy into the mod and call Register() from Entry.Init().
+// Put Package/* in Resources/Audio and include *.bank,GUIDs.txt in Godot export.
+using STS2RitsuLib.Audio;
+
+namespace Sts2HollowKnightMod.Scripts.Audio;
+
+public static class HollowKnightAudio
+{
+    public static void Register()
+    {
+        FmodStudioDeferredBankRegistration.RegisterBank("res://Resources/Audio/HK_Emiya_SFX.bank");
+        FmodStudioDeferredBankRegistration.RegisterBank("res://Resources/Audio/HK_Emiya_Music.bank");
+        FmodStudioDeferredBankRegistration.RegisterBank("res://Resources/Audio/HK_Emiya_VoidHeart.bank");
+        FmodStudioDeferredBankRegistration.RegisterStudioGuidMappings("res://Resources/Audio/GUIDs.txt");
+    }
+    public const string HeroFireball = "event:/sfx/hollow_knight/spells/hero_fireball";
+    public const string HeroQuakeSpellPrepare = "event:/sfx/hollow_knight/spells/hero_quake_spell_prepare";
+    public const string HeroQuakeSpellDash = "event:/sfx/hollow_knight/spells/hero_quake_spell_dash";
+    public const string HeroQuakeSpellImpact = "event:/sfx/hollow_knight/spells/hero_quake_spell_impact";
+    public const string HeroVoidQuakeImpact = "event:/sfx/hollow_knight/spells/hero_void_quake_impact";
+    public const string HeroScreamSpell = "event:/sfx/hollow_knight/spells/hero_scream_spell";
+    public const string HeroVoidScreamSpell = "event:/sfx/hollow_knight/spells/hero_void_scream_spell";
+    public const string HeroFlukeCast = "event:/sfx/hollow_knight/spells/hero_fluke_cast";
+    public const string HeroFlukeBounce1 = "event:/sfx/hollow_knight/spells/hero_fluke_bounce_1";
+    public const string HeroFlukeBounce2 = "event:/sfx/hollow_knight/spells/hero_fluke_bounce_2";
+    public const string HeroFlukeBounce3 = "event:/sfx/hollow_knight/spells/hero_fluke_bounce_3";
+    public const string HeroTentacleSword = "event:/sfx/hollow_knight/spells/hero_tentacle_sword";
+    public const string HeroNailArtChargeInitiate = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_initiate";
+    public const string HeroNailArtChargeComplete = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_complete";
+    public const string HeroNailArtChargeLoop = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_charge_loop";
+    public const string HeroNailArtGreatSlash = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_great_slash";
+    public const string HeroNailArtCycloneSlashShort = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_cyclone_slash_short";
+    public const string HeroNailArtCycloneSlashLong = "event:/sfx/hollow_knight/nail_arts/hero_nail_art_cyclone_slash_long";
+    public const string FocusHealthCharging = "event:/sfx/hollow_knight/charge/focus_health_charging";
+    public const string FocusReady = "event:/sfx/hollow_knight/charge/focus_ready";
+    public const string FocusHealthHeal = "event:/sfx/hollow_knight/charge/focus_health_heal";
+    public const string HeroDreamNailShortCharge = "event:/sfx/hollow_knight/charge/hero_dream_nail_short_charge";
+    public const string HeroDreamNailSlash = "event:/sfx/hollow_knight/charge/hero_dream_nail_slash";
+    public const string HeroDreamNailSlashOnly = "event:/sfx/hollow_knight/charge/hero_dream_nail_slash_only";
+    public const string HeroSuperDashCharge = "event:/sfx/hollow_knight/charge/hero_super_dash_charge";
+    public const string HeroSuperDashReady = "event:/sfx/hollow_knight/charge/hero_super_dash_ready";
+    public const string HeroSuperDashBurst = "event:/sfx/hollow_knight/charge/hero_super_dash_burst";
+    public const string HeroSuperDashLoop = "event:/sfx/hollow_knight/charge/hero_super_dash_loop";
+    public const string HeroSuperDashAirBrake = "event:/sfx/hollow_knight/charge/hero_super_dash_air_brake";
+    public const string HeroSuperDashImpactWall = "event:/sfx/hollow_knight/charge/hero_super_dash_impact_wall";
+    public const string HeroDash = "event:/sfx/hollow_knight/hero/hero_dash";
+    public const string HeroShadeDash1 = "event:/sfx/hollow_knight/hero/hero_shade_dash_1";
+    public const string HeroShadeDash2 = "event:/sfx/hollow_knight/hero/hero_shade_dash_2";
+    public const string HeroParry = "event:/sfx/hollow_knight/hero/hero_parry";
+    public const string HeroUnsheath = "event:/sfx/hollow_knight/hero/hero_unsheath";
+    public const string HeroDamage = "event:/sfx/hollow_knight/hero/hero_damage";
+    public const string HeroDeathV2 = "event:/sfx/hollow_knight/hero/hero_death_v2";
+    public const string HeroWings = "event:/sfx/hollow_knight/hero/hero_wings";
+    public const string HeroThornCounter = "event:/sfx/hollow_knight/hero/hero_thorn_counter";
+    public const string HeroFuryCharmBurst = "event:/sfx/hollow_knight/hero/hero_fury_charm_burst";
+    public const string Title = "event:/music/hollow_knight/music/title";
+    public const string Dirtmouth = "event:/music/hollow_knight/music/dirtmouth";
+    public const string Greenpath = "event:/music/hollow_knight/music/greenpath";
+    public const string Crossroads = "event:/music/hollow_knight/music/crossroads";
+    public const string FungalWastes = "event:/music/hollow_knight/music/fungal_wastes";
+    public const string WhitePalace = "event:/music/hollow_knight/music/white_palace";
+    public const string Hornet = "event:/music/hollow_knight/music/hornet";
+    public const string MantisLords = "event:/music/hollow_knight/music/mantis_lords";
+    public const string SistersOfBattle = "event:/music/hollow_knight/music/sisters_of_battle";
+    public const string Grimm = "event:/music/hollow_knight/music/grimm";
+    public const string NightmareKingGrimm = "event:/music/hollow_knight/music/nightmare_king_grimm";
+    public const string HollowKnight = "event:/music/hollow_knight/music/hollow_knight";
+    public const string Radiance = "event:/music/hollow_knight/music/radiance";
+    public const string PureVessel = "event:/music/hollow_knight/music/pure_vessel";
+    public const string DreamBattle = "event:/music/hollow_knight/music/dream_battle";
+    public const string Shade = "event:/music/hollow_knight/music/shade";
+    public const string DreamEnter = "event:/sfx/hollow_knight/dream/dream_enter";
+    public const string DreamEnterPt2 = "event:/sfx/hollow_knight/dream/dream_enter_pt_2";
+    public const string DreamOrbPickup = "event:/sfx/hollow_knight/dream/dream_orb_pickup";
+    public const string DreamGhostAppear = "event:/sfx/hollow_knight/dream/dream_ghost_appear";
+    public const string DreamDamage = "event:/sfx/hollow_knight/dream/dream_damage";
+    public const string DreamshieldAttack = "event:/sfx/hollow_knight/dream/dreamshield_attack";
+    public const string VoidHeartBirthplace = "event:/music/hollow_knight/music/void_heart_birthplace";
+}
