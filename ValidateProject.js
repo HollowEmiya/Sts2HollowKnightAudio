@@ -1,5 +1,5 @@
 var events=studio.project.model.Event.findInstances();
-if(events.length!==63)throw new Error('Expected 63 events, got '+events.length);
+if(events.length!==71)throw new Error('Expected 71 events, got '+events.length);
 var loopCount=0,musicCount=0;
 events.forEach(function(e){
     if(e.groupTracks.length!==1)throw new Error('Missing track '+e.name);
@@ -16,4 +16,5 @@ events.forEach(function(e){
     }});
 });
 if(musicCount!==17||loopCount!==20)throw new Error('Unexpected music/loops '+musicCount+'/'+loopCount);
-console.log('PASS: 63 events, 46 SFX, 17 streaming music, 20 loops; assets, tracks, banks and routing verified.');
+console.log('PASS: 71 events, 54 SFX, 17 streaming music, 20 loops; assets, tracks, banks and routing verified.');
+

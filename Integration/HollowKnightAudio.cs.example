@@ -76,4 +76,13 @@ public static class HollowKnightAudio
     public const string DreamDamage = "event:/sfx/hollow_knight/dream/dream_damage";
     public const string DreamshieldAttack = "event:/sfx/hollow_knight/dream/dreamshield_attack";
     public const string VoidHeartBirthplace = "event:/music/hollow_knight/music/void_heart_birthplace";
+    public const string HatchlingCharge = "event:/sfx/hollow_knight/companions/hatchling_charge";
+    public const string HatchlingExplode = "event:/sfx/hollow_knight/companions/hatchling_explode";
+    public const string DungHatchlingExplode = "event:/sfx/hollow_knight/companions/dung_hatchling_explode";
+    public const string GrimmchildFireballShoot = "event:/sfx/hollow_knight/companions/grimmchild_fireball_shoot";
+    public const string SpiderBuddySword1 = "event:/sfx/hollow_knight/companions/spider_buddy_sword_1";
+    public const string SpiderBuddySword2 = "event:/sfx/hollow_knight/companions/spider_buddy_sword_2";
+    public const string SpiderBuddySword3 = "event:/sfx/hollow_knight/companions/spider_buddy_sword_3";
+    public const string SpiderBuddySword4 = "event:/sfx/hollow_knight/companions/spider_buddy_sword_4";
 }
+

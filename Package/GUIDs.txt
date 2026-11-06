@@ -30,6 +30,14 @@
 {e3f07a08-13ef-4fb2-8bf7-1b6493ae30e4} event:/sfx/hollow_knight/charge/hero_super_dash_impact_wall
 {b0d3bbb0-3218-4958-b16f-17970b590a75} event:/sfx/hollow_knight/charge/hero_super_dash_loop
 {7841497b-1b3e-46f3-bc86-7f48176c66f4} event:/sfx/hollow_knight/charge/hero_super_dash_ready
+{da85a0cd-1374-43e1-9681-b25aa3478597} event:/sfx/hollow_knight/companions/dung_hatchling_explode
+{66e5f76c-f837-4770-b6eb-61f7e2df4392} event:/sfx/hollow_knight/companions/grimmchild_fireball_shoot
+{4c24bd94-2fc8-488a-8cce-9bb07622efa1} event:/sfx/hollow_knight/companions/hatchling_charge
+{7906fbc2-6b9a-4325-b3b2-b05452b5da2d} event:/sfx/hollow_knight/companions/hatchling_explode
+{97b58153-d88c-4e09-8622-b08d64787c9e} event:/sfx/hollow_knight/companions/spider_buddy_sword_1
+{04c20725-8912-46c9-99a9-743be39cad86} event:/sfx/hollow_knight/companions/spider_buddy_sword_2
+{a41bbaa2-687d-4bd4-9d63-d620801310ae} event:/sfx/hollow_knight/companions/spider_buddy_sword_3
+{be890a0b-c581-479c-a9e7-dd5ad471eafb} event:/sfx/hollow_knight/companions/spider_buddy_sword_4
 {752b6185-1848-4744-8c1a-6b5b3055e900} event:/sfx/hollow_knight/dream/dream_damage
 {97c4cc54-5dfe-48bb-ba66-0039e7e61e51} event:/sfx/hollow_knight/dream/dream_enter
 {b7ae800b-d1ef-4fba-8b6f-a0f1eda14d36} event:/sfx/hollow_knight/dream/dream_enter_pt_2

@@ -62,3 +62,11 @@
 "event:/sfx/hollow_knight/dream/dream_damage","dream","dream_damage","Assets/sfx/dream/dream_damage.ogg","dream_damage.ogg","False","HK_Emiya_SFX",,
 "event:/sfx/hollow_knight/dream/dreamshield_attack","dream","dreamshield_attack","Assets/sfx/dream/dreamshield_attack.ogg","dreamshield_attack.ogg","False","HK_Emiya_SFX",,
 "event:/music/hollow_knight/music/void_heart_birthplace","music","void_heart_birthplace","Assets/music/music/VoidHeart_Birthplace_Full.wav","S59-55 Final Stage 2.ogg + S59-55 Final Stage 3.ogg (timed arrangement)","True","HK_Emiya_VoidHeart","72","108"
+"event:/sfx/hollow_knight/companions/hatchling_charge","companions","hatchling_charge","Assets/sfx/companions/hatchling_charge.ogg","hatchling_charge.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/hatchling_explode","companions","hatchling_explode","Assets/sfx/companions/hatchling_explode.ogg","hatchling_explode.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/dung_hatchling_explode","companions","dung_hatchling_explode","Assets/sfx/companions/dung_hatchling_explode.ogg","dung_hatchling_explode.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/grimmchild_fireball_shoot","companions","grimmchild_fireball_shoot","Assets/sfx/companions/grimmchild_fireball_shoot.ogg","grimmchild_fireball_shoot.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/spider_buddy_sword_1","companions","spider_buddy_sword_1","Assets/sfx/companions/spider_buddy_sword_1.ogg","spider_buddy_sword_1.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/spider_buddy_sword_2","companions","spider_buddy_sword_2","Assets/sfx/companions/spider_buddy_sword_2.ogg","spider_buddy_sword_2.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/spider_buddy_sword_3","companions","spider_buddy_sword_3","Assets/sfx/companions/spider_buddy_sword_3.ogg","spider_buddy_sword_3.ogg","False","HK_Emiya_SFX",,
+"event:/sfx/hollow_knight/companions/spider_buddy_sword_4","companions","spider_buddy_sword_4","Assets/sfx/companions/spider_buddy_sword_4.ogg","spider_buddy_sword_4.ogg","False","HK_Emiya_SFX",,

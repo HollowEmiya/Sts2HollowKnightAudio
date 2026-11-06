@@ -5,13 +5,13 @@ FMOD Studio 2.03.06；基于教程指定的 STS2 最简工程制作。
 ## 打开和构建
 
 打开 `HollowKnightAudio.fspro`。事件在 Events 的 `sfx/hollow_knight` 和 `music/hollow_knight` 下。
-执行 `./Build.ps1` 重建、导出 GUID、检查 63 个事件，并更新 `Package/`。
+执行 `./Build.ps1` 重建、导出 GUID、检查 71 个事件，并更新 `Package/`。
 也可以在 FMOD 里 File → Build、File → Export GUIDs，再运行脚本整理打包文件。
 `Assets/` 是原始 OGG，未裁剪、变调或混入 vibration 素材；音频文件可直接试听。
 
 ## 内容
 
-46 个音效：法术 12 个、剑技 6 个、聚集/梦之钉/水晶冲刺 12 个、角色动作 10 个、梦境音效 6 个。
+54 个音效：法术 12 个、剑技 6 个、聚集/梦之钉/水晶冲刺 12 个、角色动作 10 个、梦境音效 6 个。
 包含白波、下砸准备/下冲/落地、黑砸落地、白吼/黑吼、吸虫施法和弹跳、暗影触须、剑技蓄力开始/完成/循环、强力劈砍、长短旋风斩等。
 骨钉蓄力循环、聚集蓄力、水晶冲刺循环是持续事件；需持有播放实例并在释放、取消或战斗结束时停止，不能用一次性 Play 后放任播放。
 旋风斩长/短素材是完整的一次性片段，没有强制循环。
@@ -27,7 +27,7 @@ FMOD Studio 2.03.06；基于教程指定的 STS2 最简工程制作。
 把 `Package/` 内两个 bank 和 GUIDs.txt 放到模组的 `Resources/Audio/`。
 只加载这两个自定义 bank。不要复制或加载本工程构建产生的 Master.bank 或 Master.strings.bank。
 原版 mixer/bank GUID 保留自 STS2 模板；音效路由到 `bus:/master/sfx`，音乐到 `bus:/master/music`。
-`Package/GUIDs.txt` 只包含本工程 63 个事件与 2 个 bank，避免注册模板无关映射。
+`Package/GUIDs.txt` 只包含本工程 71 个事件与 2 个 bank，避免注册模板无关映射。
 
 在 Entry.Init() 注册（参考 `Integration/HollowKnightAudio.cs.example`）：
 
@@ -74,3 +74,7 @@ SfxCmd.Play("event:/sfx/hollow_knight/spells/hero_void_scream_spell");
 可直接试听 `Assets/music/music/VoidHeart_Birthplace_Full.wav`。制作参数、SHA256、峰值及循环边界检测见 `VoidHeartArrangement.json`。解码与渲染脚本为 DecodeVoidHeartStems.gd、RenderFullVoidHeart.py；Godot 脚本通过 `-- <音频工程目录>` 接受工程路径，Python 需 numpy。普通修改后的 bank 构建仍使用 Build.ps1。
 
 虚空之心成功打出后替换本场音乐，同场重复出牌不叠播；战斗结束或场景退出时恢复正常音乐。
+
+## 召唤物攻击音效
+新增 companions 分类下 8 个原版一次性事件：hatchling_charge、hatchling_explode、dung_hatchling_explode、grimmchild_fireball_shoot、spider_buddy_sword_1–4。幼崽在冲刺和命中时播放，护符臭屁版使用独立爆裂音；格林之子在发射帧播放；编织者在近身攻击动作开始时播放，按单位索引轮换4个音色。全部路由 SFX；不启动飞行或待机循环。
+

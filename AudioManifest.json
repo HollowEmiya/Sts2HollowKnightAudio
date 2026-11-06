@@ -567,5 +567,77 @@
     "bank": "HK_Emiya_VoidHeart",
     "loop_start_seconds": 72,
     "loop_end_seconds": 108
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/hatchling_charge",
+    "category": "companions",
+    "name": "hatchling_charge",
+    "asset": "Assets/sfx/companions/hatchling_charge.ogg",
+    "source": "hatchling_charge.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/hatchling_explode",
+    "category": "companions",
+    "name": "hatchling_explode",
+    "asset": "Assets/sfx/companions/hatchling_explode.ogg",
+    "source": "hatchling_explode.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/dung_hatchling_explode",
+    "category": "companions",
+    "name": "dung_hatchling_explode",
+    "asset": "Assets/sfx/companions/dung_hatchling_explode.ogg",
+    "source": "dung_hatchling_explode.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/grimmchild_fireball_shoot",
+    "category": "companions",
+    "name": "grimmchild_fireball_shoot",
+    "asset": "Assets/sfx/companions/grimmchild_fireball_shoot.ogg",
+    "source": "grimmchild_fireball_shoot.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/spider_buddy_sword_1",
+    "category": "companions",
+    "name": "spider_buddy_sword_1",
+    "asset": "Assets/sfx/companions/spider_buddy_sword_1.ogg",
+    "source": "spider_buddy_sword_1.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/spider_buddy_sword_2",
+    "category": "companions",
+    "name": "spider_buddy_sword_2",
+    "asset": "Assets/sfx/companions/spider_buddy_sword_2.ogg",
+    "source": "spider_buddy_sword_2.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/spider_buddy_sword_3",
+    "category": "companions",
+    "name": "spider_buddy_sword_3",
+    "asset": "Assets/sfx/companions/spider_buddy_sword_3.ogg",
+    "source": "spider_buddy_sword_3.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
+  },
+  {
+    "event": "event:/sfx/hollow_knight/companions/spider_buddy_sword_4",
+    "category": "companions",
+    "name": "spider_buddy_sword_4",
+    "asset": "Assets/sfx/companions/spider_buddy_sword_4.ogg",
+    "source": "spider_buddy_sword_4.ogg",
+    "loop": false,
+    "bank": "HK_Emiya_SFX"
   }
 ]
